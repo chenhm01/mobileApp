@@ -1,0 +1,982 @@
+.divBox {
+    position: relative;
+    top: 0;
+    right: 0;
+    max-width: 750px;
+    min-width: 320px;
+    height: auto;
+    margin: 0 auto;
+    background: #f5f5f5;
+    overflow: hidden;
+    padding-bottom: 3em;
+}
+
+/* -----------侧边栏展开缩放css ------------*/
+.slide_right {
+    position: fixed;
+    top: 0;
+    right: -3rem;
+    width: 3rem;
+    height: 100%;
+    background: #242e30;
+    z-index: 201;
+}
+.slide_right ul li{
+    width: 100%;
+    font-size: 0.4rem;
+    color: #fff;
+    border-bottom: 2px solid #111;
+    text-align: center;
+    height: 0.9rem;
+    line-height: 0.9rem;
+}
+
+/*------------------header----------------*/
+
+.header {
+    width: 94%;
+    height: 0.9rem;
+    padding: 0 3%;
+    background: #f0f0f0;
+    position: relative;
+}
+
+.logo {
+    width: 1.5rem;
+    height: auto;
+    position: absolute;
+    left: 3%;
+    top: 30%;
+}
+
+.logo img {
+    display: block;
+    width: 100%;
+}
+
+.headerR {
+    position: absolute;
+    right: 3%;
+    top: 0;
+    height: auto;
+    padding: 0.15rem 0;
+}
+
+.headerR a {
+    float: left;
+    display: inline-block;
+    width: 0.6rem;
+    height: 0.6rem;
+    margin-left: 0.4rem;
+}
+
+.headerR a.telBtn {
+    background: url(../images/ico_btn1.png) no-repeat;
+    background-size: 100%;
+}
+
+.headerR a img.topMnu{
+    width: 0.6rem;
+    height: 0.6rem;
+}
+
+
+
+/*--------------------banner-----------------*/
+
+.banner {
+    width: 100%;
+    height: 100%;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+
+/*--------------------导--航--栏---------------*/
+
+.nav {
+    width: 100%;
+    height: auto;
+    background: #f6f6f6;
+}
+
+.nav ul {
+    width: 94%;
+    height: auto;
+    margin: 0.3rem auto;
+}
+
+.nav ul li {
+    width: 20%;
+    float: left;
+    height: auto;
+    text-align: center;
+    font-size: 0.28rem;
+}
+
+.nav ul li img {
+    display: block;
+    width: 65%;
+    margin: 0 auto;
+}
+
+.nav ul li h2 {
+    margin-top: 0.2rem;
+    margin-bottom: 0.3rem;
+}
+
+
+/*------------------头--条------------------*/
+
+.headlines {
+    width: 100%;
+    height: auto;
+    padding: 0 3%;
+    background: #fff;
+}
+
+.headlines .headlinesLogo {
+    width: 20%;
+    height: auto;
+    padding-top: 0.3rem;
+}
+
+.headlines .headlinesLogo img {
+    display: block;
+    width: 100%;
+}
+
+.headlines .textScroll {
+    width: 78%;
+    height: auto;
+}
+
+.headlines .textScroll .t_news {
+    height: 0.95rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.news_li{
+    line-height: 0.95rem;
+    display: inline-block;
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+}
+.headlines .textScroll li {
+    font-size: 0.3rem;
+    color: #3c3c3c;
+    line-height: 0.95rem;
+}
+
+
+/*-------------------各年级学生-------------------*/
+
+.myGrade {
+    width: 100%;
+    height: auto;
+    background: #f6f6f6;
+}
+
+.myGrage .grade1 {
+    width: 100%;
+    height: auto;
+}
+
+.myGrade .grade1 li {
+    float: left;
+    width: 31%;
+    margin-right: 3.5%;
+    height: auto;
+    margin-top: 0.4rem;
+}
+
+.myGrade .grade1 li:last-child {
+    margin-right: 0;
+}
+
+.myGrade .grade1 li a {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+}
+
+.myGrade .grade1 li a.gra1 {
+    background: url(../images/bg-block-1.jpg) no-repeat;
+    background-size: 100%;
+}
+
+.myGrade .grade1 li a.gra2 {
+    background: url(../images/bg-block-2.jpg) no-repeat;
+    background-size: 100%;
+}
+
+.myGrade .grade1 li a.gra3 {
+    background: url(../images/bg-block-3.jpg) no-repeat;
+    background-size: 100%;
+}
+
+.myGrade .grade1 li a h2 {
+    width: 80%;
+    font-size: 0.3rem;
+    background: rgba(0, 0, 0, 0.3);
+    border-top-right-radius: 0.2rem;
+    border-bottom-right-radius: 0.2rem;
+    text-align: center;
+    margin-top: 0.25rem;
+    line-height: 0.4rem;
+    color: white;
+}
+
+.myGrade .grade1 li a p {
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+    margin-left: 0.1rem;
+    font-size: 0.2rem;
+    color: white;
+    line-height: 0.3rem;
+}
+
+
+/*----------------------第二行---------------------*/
+
+.myGrage .grade2 {
+    width: 100%;
+    height: auto;
+}
+
+.myGrade .grade2 li {
+    float: left;
+    width: 48%;
+    margin-right: 4%;
+    height: auto;
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+}
+
+.myGrade .grade2 li:last-child {
+    margin-right: 0;
+}
+
+.myGrade .grade2 li a {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+}
+
+.myGrade .grade2 li a.gra4 {
+    background: url(../images/bg-block-4.jpg) no-repeat;
+    background-size: 100%;
+}
+
+.myGrade .grade2 li a.gra5 {
+    background: url(../images/bg-block-5.jpg) no-repeat;
+    background-size: 100%;
+}
+
+.myGrade .grade2 li a h2 {
+    width: 80%;
+    font-size: 0.3rem;
+    background: rgba(0, 0, 0, 0.3);
+    border-top-right-radius: 0.2rem;
+    border-bottom-right-radius: 0.2rem;
+    text-align: center;
+    margin-top: 0.25rem;
+    line-height: 0.4rem;
+    color: white;
+}
+
+.myGrade .grade2 li a p {
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+    margin-left: 0.1rem;
+    font-size: 0.2rem;
+    color: white;
+    line-height: 0.3rem;
+}
+
+
+/*----------------留-学-目-的-地--------------*/
+
+.abroad {
+    width: 100%;
+    height: auto;
+    background-color: white;
+}
+
+.abroad .abroadTop {
+    width: 100%;
+    height: 0.8rem;
+    padding: 0.2rem 3%;
+}
+
+.abroad .abroadTop .abroadTL {
+    width: 70%;
+    height: auto;
+}
+
+.abroad .abroadTop .abroadTL span {
+    display: inline-block;
+    float: left;
+    width: 0.4rem;
+    height: 0.4rem;
+    margin:0.2rem;
+}
+
+.abroad .abroadTop .abroadTL span img {
+    width: 100%;
+    height: 100%;
+}
+
+.abroad .abroadTop .abroadTL em {
+    font-size: 0.35rem;
+    line-height: 0.8rem;
+}
+
+.abroad .abroadTop .abroadTR {
+    width: 30%;
+    height: auto;
+}
+
+.abroad .abroadTop .abroadTR a span {
+    display: inline-block;
+    float: left;
+    width: 0.4rem;
+    height: 0.4rem;
+    margin-top: 0.2rem;
+    margin-right:0.2rem;
+}
+
+.abroad .abroadTop .abroadTR a span img {
+    width: 100%;
+    height: 100%;
+}
+
+.abroad .abroadTop .abroadTR a {
+    font-size: 0.3rem;
+    line-height: 0.8rem;
+    float: left;
+    color: red;
+}
+
+
+/*------------------国旗banner------------------*/
+
+.abroad .abroadFlag {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.abroad .abroadFlag .page1 {
+    width: 100%;
+    height: auto;
+}
+
+.abroad .abroadFlag .page1 li {
+    float: left;
+    width: 25%;
+    height: auto;
+    margin: 0.4rem auto;
+}
+
+.abroad .abroadFlag .page1 li a {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.abroad .abroadFlag .page1 li a img {
+    width: 70%;
+    height: auto;
+    margin: 15% 15%;
+}
+
+.abroad .abroadFlag .page1 li a h2 {
+    font-size: 0.3rem;
+    text-align: center;
+}
+
+.abroad .abroadFlag .swiper-pagination {
+    position: absolute;
+    top: 5.3rem;
+}
+
+
+/*----------------热门留学院校--------------*/
+
+.college {
+    width: 100%;
+    height: 3rem;
+    overflow: hidden;
+    background: white;
+    margin-top: 0.3rem;
+}
+
+.college .collegeTop {
+    width: 100%;
+    height: 0.8rem;
+    padding: 0.2rem 3%;
+}
+
+.college .collegeTop .collegeTL {
+    width: 50%;
+    height: auto;
+}
+
+.college .collegeTop .collegeTL span {
+    display: inline-block;
+    float: left;
+    width: 0.4rem;
+    height: 0.4rem;
+    margin: 0.2rem 0.2rem;
+}
+
+.college .collegeTop .collegeTL span img {
+    width: 100%;
+    height: 100%;
+}
+
+.college .collegeTop .collegeTL em {
+    font-size: 0.35rem;
+    line-height: 0.8rem;
+}
+
+.college .collegeTop .collegeTR {
+    width: 40%;
+    height: auto;
+    margin-right: 10%;
+}
+
+.college .collegeTop .collegeTR a span {
+    display: inline-block;
+    float: left;
+    width: 0.4rem;
+    height: 0.4rem;
+    margin: 0.2rem 0.2rem;
+}
+
+.college .collegeTop .collegeTR a span img {
+    width: 100%;
+    height: 100%;
+}
+
+.college .collegeTop .collegeTR a {
+    font-size: 0.3rem;
+    line-height: 0.8rem;
+    float: right;
+    color: red;
+}
+.college .collegeMain{
+    width: 100%;
+    height: auto;
+    border-top: 1px solid #efefef;
+}
+.college .collegeMain .too{
+    width: 100%;
+    height: auto;
+   
+}
+.college .collegeMain .too ul{
+    width: 100%;
+    height: 0.8rem; 
+    border-bottom: 1px solid #333;
+}
+.college .collegeMain .too ul li{
+    width: 20%;
+    height: 0.8rem;
+    font-size: 0.3rem;
+    line-height: 0.8rem;
+    float: left;
+    text-align: center; 
+}
+.on {
+    color: red; 
+    border-bottom: 2px solid red;
+}
+.more {
+    width: 100%;
+    height: auto;
+    background: white; 
+}
+.showMore {
+    clear: both;
+    padding: 0.15rem;
+    width: 80%;
+    margin: 0 auto;
+    background: white;
+}
+.showMore span {
+    display: block;
+    line-height: 0.8rem;
+    font-size: 0.3rem;
+    color: #6d6d6d;
+    border: 1px solid #cecece;
+    text-align: center;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+/*------------智-能-择-校-与-竞-争-力-测-试----------*/
+
+.smartTest {
+    width: 100%;
+    height: 1.45rem;
+    margin: 0.3rem 0;
+}
+/*左边*/
+.smartTest .smart {
+    width: 50%;
+    height: 1.5rem;
+    background: url(../images/back_btn1.png) no-repeat;
+    background-size: 100%;
+    float: left;
+}
+
+.smartTest .smart span {
+    width: 25%;
+    height: auto;
+    float: left;
+}
+
+.smartTest .smart span img {
+    width: 80%;
+    height: auto;
+    margin: 0.35rem 0.1rem;
+}
+
+.smartTest .smart a{
+    width: 75%;
+    float: left;
+}
+.smartTest .smart a h2{
+    font-size: 0.4rem;
+    color: white;
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+}
+.smartTest .smart a p{
+    font-size: 0.25rem;
+    color: white;
+}
+/*右边*/
+.smartTest .test {
+    width: 50%;
+    height: 1.5rem;
+    background: url(../images/back_btn2.png) no-repeat;
+    background-size: 100%;
+    float: left;
+
+}
+
+.smartTest .test span {
+    width: 25%;
+    height: auto;
+    float: left;
+}
+
+.smartTest .test span img {
+    width: 80%;
+    height: auto;
+    margin: 0.35rem 0.1rem;
+}
+
+.smartTest .test a{
+    width: 75%;
+    float: left;
+}
+.smartTest .test a h2{
+    font-size: 0.4rem;
+    color: white;
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+}
+.smartTest .test a p{
+    font-size: 0.25rem;
+    color: white;
+}
+/*------------优选留学方案------------*/
+.abroadPlan{
+    width: 100%;
+    height: 1rem;
+    margin: 0.35rem 0;
+    overflow: hidden;
+    transition: all 0.3 ease-in;
+}
+.abroadPlan .planTitle{
+    width: 100%;
+    height: auto;
+    background: #fff; 
+
+}
+.planTitle .planL{
+    width: 50%;
+    height: auto;
+    padding: 0.3rem 0.15rem;
+}
+.planTitle .planL span{
+    display: inline-block;
+    width: 0.4rem;
+    height: 0.4rem;
+    float: left;
+}
+.planTitle .planL span img{
+    width: 0.4rem;
+    height: 0.4rem;
+}
+.planTitle .planL em{
+    float: left;
+    font-size: 0.3rem;
+    line-height: 0.4rem;
+    margin-left: 0.1rem;
+}
+.planTitle .planR{
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    background: url(../images/xiala_icon1.png) center center no-repeat;
+    
+}
+.turn1{
+    transition: all 0.3s ease-in;
+    transform: rotate(180deg);
+}
+.turn2{
+    transition: all 0.3s ease-in;
+    transform: rotate(0deg);
+}
+
+.project ul li {
+	float: left;
+	/*height: 0.92rem;
+	font-size: 0.3rem;*/
+	width: 50%;
+	background: #f6f6f6;
+	border-bottom: 1px solid #eee;
+	vertical-align: center;
+}
+
+.project img {
+	height: 0.4rem;
+	width: 0.4rem;
+	padding-right: 0.1rem
+}
+
+.project ul li h3 {
+	height:0.92rem;
+	font-size: 0.25rem;
+	padding: 7%;
+	border-bottom: 1px solid #eee;
+	line-height: 0.4rem;
+}
+
+/*-------------高考留学 高中生留学-------------*/
+.entrance{
+    width: 100%;
+    height: auto;
+    padding-bottom: 0.4rem;
+}
+
+.entrance ul{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.entrance ul li{
+    width: 100%;
+    height: auto;
+    padding-left: 0.4rem;
+    border-bottom: 1px solid #efefef;
+}
+
+.entrance ul li h2{
+    padding: 0.3rem 0;
+}
+
+.entrance ul li h2 span{
+    font-size: 0.3rem;
+    line-height: 0.3rem;
+    display: inline-block;
+    float: left;
+}
+
+.entrance h1{
+    width: 54%;
+    height: auto;
+    margin: 0.4rem auto 0;
+    border: 1px solid #ff7a00;
+    font-size: 0.3rem;
+    color: #ff7a00;
+    text-align: center;
+    line-height: 0.7rem;
+}
+.entrance ul li h2 em.hot{
+    display: inline-block;
+    width: 0.35rem;
+    height: 0.35rem;
+    float: left;
+    background: #fe3c24;
+    font-size: 0.3rem;
+    color: #fff;
+    border-radius: 0.05rem;
+    line-height: 0.35rem;
+    text-align: center;
+    margin-right: 0.1rem;
+}
+.entrance ul li h2 em.hot1{
+    background: #ff8b20;
+}
+
+/*---------------------留学精彩专题------------------*/
+.demo{
+    margin-top:0.3rem; 
+}
+.demo .proMain{
+    width: 94%;
+    margin: 0 auto;
+    height: auto;
+}
+.demo .proMain img{
+    width: 100%;
+    height: 100%;
+}
+/*-------------------人人都是名校生----------------*/
+/* allStu */
+.allStu{
+    width: 7.5rem;
+    height: 4.5rem;
+    overflow: hidden;
+    background-color: #fff;
+}
+.allStu .allStu_top{
+    width: 96%;
+    height: 25%;
+    margin: 0 auto;
+}
+.allStu .allStu_top>p{
+    font-size: 0.35rem;
+    line-height: 1.2rem;
+    text-align: center;
+}
+.allStu .allStu_bottom{
+    width: 96%;
+    height: 75%;
+    margin: 0 auto;
+}
+.allStu .allStu_bottom ul{
+    width: 100%;
+    height: 50%;
+    margin: 0 auto;
+}
+.allStu .allStu_bottom ul li{
+    width: 45%;
+    height: 0.92rem;
+    float: left;
+    margin-top: 0.4rem;
+    margin-left: 0.35rem;
+    position: relative;
+}
+.allStu .allStu_bottom ul li img{
+    width: 0.93rem;
+    height: 0.92rem;
+}
+.allStu .allStu_bottom ul li a{
+    color: #fe3c24;
+    font-size: 0.4rem;
+    /* display: inline-block;
+    margin-bottom: 0.5rem;
+    margin-left: 0.1rem; */
+    position: absolute;
+    left:1.1rem;
+}
+.allStu .allStu_bottom ul li p{
+    font-size:0.25rem;
+    /* margin-left: 1.1rem;
+    margin-top: -0.35rem; */
+    position: absolute;
+    left: 1.15rem;
+    bottom: 0.1rem;
+}
+/*---------------------底部菜单栏-------------------*/
+/*底部菜单*/
+.footerMenu{
+    width: 100%;
+    height: auto;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+}
+.footerM{
+    max-width: 750px;
+    min-width: 320px;
+    margin: 0 auto;
+    height: auto;
+    background: #fff;
+    border-top: 1px solid #efefef;
+    padding-top: 0.15rem;
+}
+.footerM ul{
+    width: 100%;
+    height: auto;
+}
+
+.footerM ul li{
+    width: 25%;
+    height: auto;
+    float: left;
+    text-align: center;
+}
+.footerM ul li i{
+    display: inline-block;
+    width: 0.5rem;
+    height: 0.5rem;
+    position: relative;
+}
+
+.footerM ul li i.ico{
+    background: url(../images/ico-b-nav-1.png) no-repeat;
+    background-size: 100%;
+}
+
+.footerM ul li i.ico1{
+    background: url(../images/ico-b-nav-2.png) no-repeat;
+    background-size: 100%;
+}
+
+.footerM ul li i.ico2{
+    background: url(../images/ico-b-nav-3.png) no-repeat;
+    background-size: 100%;
+}
+
+.footerM ul li i.ico3{
+    background: url(../images/ico-b-nav-4.png) no-repeat;
+    background-size: 100%;
+}
+
+.footerM ul li.red i.ico{
+    background: url(../images/ico-b-nav-1-on.png) no-repeat;
+    background-size: 100%;
+}
+
+.footerM ul li.red i.ico1{
+    background: url(../images/ico-b-nav-2-on.png) no-repeat;
+    background-size: 100%;
+}
+
+.footerM ul li.red i.ico2{
+    background: url(../images/ico-b-nav-3-on.png) no-repeat;
+    background-size: 100%;
+}
+
+.footerM ul li.red i.ico3{
+    background: url(../images/ico-b-nav-4-on.png) no-repeat;
+    background-size: 100%;
+}
+.footerM ul li.red p{
+    color: #fe3c24;
+}
+
+.footerM ul li p{
+    font-size: 0.2rem;
+    color: #919191;
+    margin: 0.15rem 0;
+}
+/*-----------------指纹识别功能------------------*/
+.finger{
+    width: auto;
+    height: auto;
+    position: fixed;
+    left: 0.1rem;
+    bottom: 1.5rem;
+    z-index: 20;
+}
+.finger img.finger1{
+    width: 1rem;
+    height: 1rem;
+    float: left;
+    position: relative;
+    opacity: 0.99;
+    z-index: 20;
+}
+.finger a{
+    float: left;
+    width: 0.8rem;
+    height: 0.8rem;
+    position: absolute;
+    left: 0.1rem;
+    top: 0.1rem;
+    z-index: 10;
+}
+.finger a img{
+    width: 100%;
+    height: 100%;
+}
+
+/*----------------打电话-----------------*/
+.call{
+    width: auto;
+    height: auto;
+    position: fixed;
+    bottom: 1.35rem;
+    right: 0rem;
+    z-index: 888;
+}
+.call img{
+    width: 0.76rem;
+    height: 1.32rem;
+}
+.phoneN{
+    width: 6.16rem;
+    height: 4.9rem;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -3.08rem;
+    margin-top: -2.45rem;
+    z-index: 999;
+    background: url(../images/callu.png) no-repeat;
+    background-size: 100%;
+}
+.phoneN .phoneClose img{
+    width: 0.54rem;
+    height: 0.54rem;
+    position: absolute;
+    left: 5.89rem;
+    top: -0.27rem;
+}
+.phoneN .phoneCloseAll img{
+    width: 0.54rem;
+    height: 0.54rem;
+    position: absolute;
+    left: -0.2rem;
+    top: -0.27rem;
+}
+.phoneN input{
+    width: 2.9rem;
+    height: 0.6rem;
+    font-size: 0.3rem;
+    color: black;
+    position: absolute;
+    left: 0.6rem;
+    top:3.25rem;
+    line-height: 0.6rem;
+    border-radius: 0.1rem;
+    padding-left: 0.1rem;
+}
+.dark{
+    width: 100%;
+    height: 1000%;
+    position: fixed;
+    position:absolute;
+    top: 0;
+    left: 0;
+    z-index: 998;
+    background: black;
+    opacity: 0.7;
+}
